@@ -1,5 +1,7 @@
-PATH
-  remote: ../spree_bulk_store_credits
+GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_bulk_store_credits.git
+  revision: 4edb3c8a1bf730003fcb743db34de2565074b489
+  branch: develop
   specs:
     spree_bulk_store_credits (0.0.1.alpha)
       spree_core (>= 3.1.0, < 4.0)
