@@ -35,6 +35,7 @@ gem 'spree_auth_devise', '3.3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_bulk_store_credits' , github: 'vinsol-spree-contrib/spree_bulk_store_credits', branch: 'develop'
 # gem 'spree_bulk_store_credits' , path: '../spree_bulk_store_credits'
+gem "letter_opener"
 
 gem 'delayed_job_active_record'
 
