@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/vinsol-spree-contrib/spree_bulk_store_credits.git
-  revision: 38aa660d435df5c6ab9983a9c22d250791b4b039
+  revision: b4c180296f25daf48d07b8ea92921e7c21b00de8
   branch: develop
   specs:
     spree_bulk_store_credits (0.0.1.alpha)
