@@ -33,6 +33,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "localhost:3000" }
   config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.perform_deliveries = true
+  LetterOpener.cannot_write_to_file_system!
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 

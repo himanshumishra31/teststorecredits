@@ -9,8 +9,8 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use mysql as the database for Active Record
-# gem 'mysql2', '>= 0.3.18', '< 0.5'
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'mysql2', '>= 0.3.18', '< 0.5'
+# gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -35,11 +35,11 @@ gem 'spree_auth_devise', '3.3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_bulk_store_credits' , github: 'vinsol-spree-contrib/spree_bulk_store_credits', branch: 'develop'
 # gem 'spree_bulk_store_credits' , path: '../spree_bulk_store_credits'
-gem "letter_opener"
+# gem "letter_opener"
 
 gem 'delayed_job_active_record'
 
-
+gem 'letter_opener',  :git => "git://github.com/alexrothenberg/letter_opener.git", :branch => "on_a_server"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
